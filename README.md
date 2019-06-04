@@ -1,6 +1,6 @@
-#Interactive Media Music Mixer name called  Japanese Drum
+# Interactive Media Music Mixer name called  Japanese Drum
 
-##Developed by YuFeng_Lin Yang_Shengrong  MengYang_Li
+## Developed by YuFeng_Lin Yang_Shengrong  MengYang_Li
 
 The  6 japnese style icons follow the 6 different japanese style music  and  the 6 cions  our team divided into the  
 3 ares ( tokyo , Osaka, Kyoto), than  the 4 face change for the drum boy. For example, i choose the rice rol l  drag 
