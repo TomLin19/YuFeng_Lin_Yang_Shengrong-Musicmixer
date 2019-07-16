@@ -1,0 +1,97 @@
+.containerpic
+{
+    width: 700px;
+    position: fixed;
+    min-height: 200px;
+    padding: 20px;
+    top:750px;
+    right:640px;
+    border: 2px solid #f4f4f4;
+    background-color:  
+}
+.containerpic0
+{
+    width: 200px;
+    float: left;
+    min-height: 130px;
+    padding: 20px;
+    border: 2px solid #f4f4f4;
+    
+}
+.containerpic1
+{
+    width: 120px;
+    float: right;
+    min-height: 55px;
+    padding: 10px;
+    border: 2px solid #f4f4f4;
+    background-color:lightblue;
+}
+.containerpic2
+{
+    width: 120px;
+    float: right;
+    min-height: 55px;
+    padding: 10px;
+    border: 2px solid #f4f4f4;
+    background-color:red;
+}
+.containerpic3
+{
+    width: 120px;
+    float: right;
+    min-height: 55px;
+    padding: 10px;
+    border: 2px solid #f4f4f4;
+    background-color:lightgreen;
+}
+
+
+.pic
+{
+    max-width: 55px;
+}
+ 
+.divpic1
+{
+    background: url("images/5.png") no-repeat 0 0;
+    width: 50px;
+    max-width: 70px;
+    font-size: 12px;
+    color:Maroon;
+    height: 75px;
+    padding: 10px;
+    float: left;
+}
+.divpic2
+{
+    background: url("images/3.png") no-repeat 0 0;
+    width: 50px;
+    font-size: 12px;
+    max-width: 70px;
+    height: 61px;
+    color:Maroon;
+    padding: 10px;
+    float: left;
+}
+ 
+.pic_select
+{
+    border: 1px dashed Silver;
+    background-color: #c3f1f7;
+}
+ 
+.grouppic
+{
+    border: 3px dashed Silver;
+    width: 1200px;
+    height:600px;
+    position: fixed;
+    top: 100px;
+    left:550px;
+    float: center;
+}
+.pic_over
+{
+    border: 1px dashed Maroon;
+}
