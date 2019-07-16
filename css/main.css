@@ -6,43 +6,47 @@
     padding: 20px;
     top:750px;
     right:640px;
-    border: 2px solid #f4f4f4;
-    background-color:  
+    border: 0px solid #f4f4f4;
+     
 }
 .containerpic0
 {
     width: 200px;
     float: left;
     min-height: 130px;
-    padding: 20px;
-    border: 2px solid #f4f4f4;
+    padding: 10px;
+    border: 0px solid ;
     
 }
 .containerpic1
 {
     width: 120px;
     float: right;
-    min-height: 55px;
+    min-height: 35px;
     padding: 10px;
-    border: 2px solid #f4f4f4;
+    border: 0px solid ;
+    border-radius: 10px;
     background-color:lightblue;
+
 }
 .containerpic2
 {
     width: 120px;
     float: right;
-    min-height: 55px;
+    min-height: 35px;
     padding: 10px;
-    border: 2px solid #f4f4f4;
-    background-color:red;
+    border: 0px solid ;
+    border-radius: 10px;
+    background-color:#ffb3b3;
 }
 .containerpic3
 {
     width: 120px;
     float: right;
-    min-height: 55px;
+    min-height: 35px;
     padding: 10px;
-    border: 2px solid #f4f4f4;
+    border: 0px solid ;
+    border-radius: 10px;
     background-color:lightgreen;
 }
 
@@ -83,15 +87,51 @@
  
 .grouppic
 {
-    border: 3px dashed Silver;
+    border: 0px dashed Silver;
     width: 1200px;
     height:600px;
     position: fixed;
     top: 100px;
     left:550px;
     float: center;
+    background:url("images/Origianl LayoutBG.png");
 }
 .pic_over
 {
     border: 1px dashed Maroon;
+}
+.grouppicBG{
+    width: 1200px;
+    height:600px;
+
+}
+.reloadButton{
+    position: fixed;
+    top: 900px;
+    right: 820px;
+    font-size:20px;
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    -webkit-transition-duration: 0.4s; 
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+.reloadBUtton1 {
+     background-color: white; 
+     color: black; 
+     border: 2px solid #4CAF50;
+
+}
+
+
+.reloadBUtton1 hover {
+    background-color: #4CAF50;
+    color: white;
 }
