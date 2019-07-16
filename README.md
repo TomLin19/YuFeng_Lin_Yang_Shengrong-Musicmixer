@@ -21,6 +21,8 @@ Basically showcasing how we want it to work, how we want it to look, with testin
 
 Due 16 July,2019: Checkpoint 2
 
-Updated the music 
-created a music-mixer background
-Drag and drop the 6 icons to the background
+Updated the music, 
+created a music-mixer background, 
+Drag and drop the 6 icons to the background, 
+Design finished, 
+start coding,  
