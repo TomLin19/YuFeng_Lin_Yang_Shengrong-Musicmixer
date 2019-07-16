@@ -23,6 +23,9 @@ Due 16 July,2019: Checkpoint 2
 
 Updated the music, 
 created a music-mixer background, 
-Drag and drop the 6 icons to the background, 
-Design finished, 
+Drag and drop the 6 icons to the background improvement, 
+Design improvement, 
 start coding,  
+
+
+Final due: Week 13
