@@ -25,7 +25,7 @@ Updated the music, <br>
 created a music-mixer background, <br>
 Drag and drop the 6 icons to the background improvement, <br>
 Design improvement, <br>
-start coding,  <br>
+
 
 
 Final due: Week 13
