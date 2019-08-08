@@ -5,15 +5,17 @@
 		<meta charset="UTF-8">
 		<title>Janpanese</title>
 		<link rel="stylesheet" type="text/css" href="css/index.css" />
+	    <link rel="stylesheet" type="text/css" href="css/style.css"/>
 
 	</head>
 
 	<body>
-		<h1 class="h_1">Janpanese Drum</h1>
+		<h1 class="h_1">Janpanese Music Boy</h1>
 		<div class="div_1">
 			<img src="image/img_1.jpg" height="200px" width="200px" />
 			<img src="image/img_1.jpg" height="200px" width="200px" />
 		</div>
+		<!-- touch bar -->
 		<div class="div_2">
 			<div class="d_1"></div>
 			<div class="d_2"></div>
@@ -28,6 +30,7 @@
 			<div class="d_11"></div>
 			<div class="d_12"></div>
 		</div>
+		<!-- Music set -->
 		<div id="audio">
 			<audio id="audio_auto1_1" src="music/1.mp3" />
 			<audio id="audio_auto1_2" src="music/2.mp3" />
@@ -42,6 +45,16 @@
 			<audio id="audio_auto1_11" src="music/11.mp3" />
 			<audio id="audio_auto1_12" src="music/12.mp3" />
 		</div>
+		<button onClick="document.location.reload()" class="reloadButton reloadButton1">ReFresh</button>
+
+		<audio controls autoplay>
+    <source src="music/Approaching%20Nirvana%20-%20You.mp3">
+</audio>
+ 
+<!-- <div id="background" class="wall"></div> -->
+<!-- <div id="midground" class="wall"></div> -->
+<!-- <div id="foreground" class="wall"></div> -->
+<!-- <div id="top" class="wall"></div> -->
 		<script src="js/index.js"></script>
 	</body>
 
