@@ -1,21 +1,40 @@
+(()=> {
+	console.log('fired!');
+
 var img = document.querySelector('.div_2').children;
-var is_down = false; //判断鼠标是否按下
+var is_down = false; //Whether the mouse is pressed
 var this_e_2 = {
-	a: '', //a元素是左边鼓的,a[0]是目前鼓所播放的,a[1]是顶替上来的
+	a: '', //A element is on the left of the drum, a [0] is the drum, played by a [1] is fill up
 	b: '',
-	item: 'a' //当前拖动到的是哪个元素上
+	item: 'a' //Which is the current drag to element
 }
 var gu = document.querySelector('.div_1').children
-var this_e = null; //获取当前的img图片
-var is_posi = false; //判断移动的图片是否移到对应的鼓上
-var is_onclick=false; //判断点击的时候是否点击到两鼓其中一个
+var this_e = null; //Get the Img 
+var is_posi = false; //Whether moving pictures moved to the corresponding drum
+var is_onclick=false; //Judge whether the time of the click click one or two drums
+var is_img_dom=[0,0];
+document.onmousedown=function(e){
+	var is_item_=null;
+	if(X_Y_IS(e,0)) {
+		is_item_ = 'a'
+	} else if(X_Y_IS(e,1)) {
+		is_item_ = 'b'
+	}
+	if(is_item_!=null){
+		is_onclick=true;
+		this_e_2[is_item_].target.classList.remove('posi') //remove  the absolute position  then  let the icon back
+		document.querySelector('#audio_auto1_' + this_e_2[is_item_].target.classList[0].toString().replace('d_', '')).pause() //将原先那个元素的音乐暂停
+	}else{
+		is_onclick=false;
+	}
+}
 for(var i in img) {
 	img[i].onmousedown = function(e) {
 		move_down(e)
 	}
 }
-
 function move_down(e) {
+	is_img_dom[1]++;
 	is_down = true;
 	this_e = e;
 	e.target.classList.add('posi')
@@ -27,7 +46,7 @@ function X_Y_IS(e,i){
 			e.clientY > gu[i].offsetTop && e.clientY < gu[i].offsetTop + 200)
 }
 document.onmousemove = function(e) {
-	if(is_down) { //鼠标按下，进入条件
+	if(is_down) { //click mouse . inter in the condition 
 		this_e.target.style.left = e.clientX - 50 + 'px'
 		this_e.target.style.top = e.clientY - 50 + 'px'
 		if(X_Y_IS(e,0)) {
@@ -36,12 +55,15 @@ document.onmousemove = function(e) {
 		} else if(X_Y_IS(e,1)) {
 			this_e_2.item = 'b'
 			is_posi = true;
-		} else { //若楼上两个条件都没进入则直接图片被拉到其他地方了
+		} else { //If above two conditions are not entered directly the picture is the way to the other place
 			is_posi = false;
 		}
 	}
 }
 document.onmouseup = function(e) {
+	if(is_img_dom[1]==is_img_dom[0]){
+		this_e=''
+	}
 	is_down = false;
 	var is_item=null;
 	if(X_Y_IS(e,0)) {
@@ -51,15 +73,14 @@ document.onmouseup = function(e) {
 	}else{
 		is_item=null
 	}
-	console.log(is_item)
 	if(is_item == 'a' || is_item == 'b' ) {
 		console.log(is_onclick,is_posi)
 		if(is_posi && !is_onclick) {
-			if(this_e_2[this_e_2.item] != '') { //判断是否为第一次拖动
-				this_e_2[this_e_2.item].target.classList.remove('posi') //去除绝对定位，让原元素回到自己的老窝
+			if(this_e_2[this_e_2.item] != '') { //Determine whether to drag for the first time
+				this_e_2[this_e_2.item].target.classList.remove('posi') //remove  the absolute position  then  let the icon back
 				document.querySelector('#audio_auto1_' + this_e_2[this_e_2.item].target.classList[0].toString().replace('d_', '')).pause() //将原先那个元素的音乐暂停
 				this_e_2[this_e_2.item] = this_e;
-				this_e_2[this_e_2.item].target.classList.add('posi') //加上绝对定位，让原元素恢复翱翔的自由
+				this_e_2[this_e_2.item].target.classList.add('posi') //Add the ahsoulte position 
 				document.querySelector('#audio_auto1_' + this_e_2[this_e_2.item].target.classList[0].toString().replace('d_', '')).play() //播放新拖动上来的元素中对应的音频
 			} else {
 				this_e_2[this_e_2.item] = this_e;
@@ -71,20 +92,6 @@ document.onmouseup = function(e) {
 	}else if(!is_onclick){
 		this_e.target.classList.remove('posi')
 	}
-
+	is_img_dom[0]++;
 }
-document.onmousedown=function(e){
-	var is_item_=null;
-	if(X_Y_IS(e,0)) {
-		is_item_ = 'a'
-	} else if(X_Y_IS(e,1)) {
-		is_item_ = 'b'
-	}
-	if(is_item_!=null){
-		is_onclick=true;
-		this_e_2[is_item_].target.classList.remove('posi') //去除绝对定位，让原元素回到自己的老窝
-		document.querySelector('#audio_auto1_' + this_e_2[is_item_].target.classList[0].toString().replace('d_', '')).pause() //将原先那个元素的音乐暂停
-	}else{
-		is_onclick=false;
-	}
-}
+})();
