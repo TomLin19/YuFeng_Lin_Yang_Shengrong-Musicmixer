@@ -1,5 +1,5 @@
 # Lin_Li_Music-Mixer
-## Developed by Yufeng Lin and Mengyang Li
+## Developed by Yufeng Lin and Mengyang Li (Shengrong was dropped the courses)
 
 The 6 japnese style icons follow the 6 different japanese style music and the 6 cions our team divided into the
 3 ares ( tokyo , Osaka, Kyoto), than the 4 face change for the drum boy. For example, i choose the rice rol l drag the drum boy will change the face and paly the music about rice roll.
