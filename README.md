@@ -13,3 +13,5 @@ Proper file setup, README file, naming conventions, and separated branches showc
 Due 16 July,2019: Checkpoint 2
 
 Updated the music, created a music-mixer background, Drag and drop the 6 icons to the background, Design finished, start coding,
+
+Due 8 Augest, 2019 Finished
