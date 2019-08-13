@@ -1,5 +1,5 @@
 # Lin_Li_Music-Mixer Assignment 
-========
+
 ## Developed by Yufeng Lin and Mengyang Li (Shengrong was dropped the courses)
 ---------
 ### project Desccription  
