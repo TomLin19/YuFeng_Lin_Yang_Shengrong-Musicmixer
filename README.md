@@ -1,6 +1,6 @@
 # Lin_Li_Music-Mixer Assignment 
 
-## Developed by Yufeng Lin and Mengyang Li (Shengrong was dropped the courses)
+## Developed by Yufeng Lin and Mengyang Li <br>(Shengrong was dropped the courses)
 ---------
 ### project Desccription  
 The 12 japnese style icons follow the 12 different japanese style music and the 6 cions our team divided into the
