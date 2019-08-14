@@ -9,7 +9,7 @@ choose other janpansese style icon drop to the top ares then tha ohter music als
 ### Contributing 
 MengYang Li(Designer)<br>
 Yufeng Lin(developer)
-###Tools Used 
+### Tools Used 
 *Adobe Photoshop CC 
 *Adobe Illustrator CC
 *Sublime_Text 
