@@ -10,11 +10,11 @@ choose other janpansese style icon drop to the top ares then tha ohter music als
 MengYang Li(Designer)<br>
 Yufeng Lin(developer)
 ### Tools Used 
-*Adobe Photoshop CC 
-*Adobe Illustrator CC
-*Sublime_Text 
-*HtML&CSS 
-*Javascript
+*Adobe Photoshop CC <br>
+*Adobe Illustrator CC<br>
+*Sublime_Text <br>
+*HtML&CSS <br>
+*Javascript<br>
 
 ### Assignment——Working Process 
 Sprint goals: <br>
