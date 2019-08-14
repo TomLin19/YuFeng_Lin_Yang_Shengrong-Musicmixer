@@ -18,17 +18,23 @@ Yufeng Lin(developer)
 
 ### Assignment——Working Process 
 Sprint goals: <br>
+#### Step 1 
 Sprint 1: Setup, analysis and initial design, due week 5 Sprint 2: drag and drop, audio, design improvements, due week 9 Sprint 3: final touches / improvements, due week 13
 <br>
 Sprint 1 deliverables, Due June 4, 2019: Checkpoint 1
 <br>
 Proper file setup, README file, naming conventions, and separated branches showcasing our collective workflow as a team. Design of the layout, wireframing, with HTML and CSS implemented Research on functionality and setting up javascript files Basically showcasing how we want it to work, how we want it to look, with testing and experimentation
 <br>
+
+#### Step 2 
 Due 16 July,2019: Checkpoint 2
 <br>
 Updated the music, created a music-mixer background, Drag and drop the 6 icons to the background, Design finished, start coding,
 <br>
-Due 16 Augest, 2019 Finished
+
+#### Step 3 
+Due 16 Augest, 2019 Finished( Check the Js ,html , css and submit  )
+
 ### Licenses& Acknowledgments
 Every Design is original design 
 <br>
